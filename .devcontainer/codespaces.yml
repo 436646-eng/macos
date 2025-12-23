@@ -4,8 +4,8 @@ services:
     image: ghcr.io/dockur/macos
     environment:
       RAM_SIZE: "34GB"
-      DISK_SIZE: "100TB"
-      CPU_CORES: "5"
+      DISK_SIZE: "10TB"
+      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
